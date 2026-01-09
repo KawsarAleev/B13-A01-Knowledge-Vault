@@ -39,7 +39,6 @@ a {
 
 nav a:hover {
     color: #30B868;
-    text-decoration: underline;
 }
 
 .button {
@@ -58,6 +57,10 @@ nav a:hover {
 }
 
 .button a {
+    color: #fff;
+}
+
+.button a:hover {
     color: #fff;
 }
 
@@ -188,14 +191,14 @@ section {
 
 .cards .card .card-header {
     padding: 16px 0;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     color: #001931;
 }
 
 .cards .card .card-content {
     color: #627382;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .solution {
@@ -272,4 +275,46 @@ section {
 .earlyAccess button a {
     display: flex;
     gap: 10px;
+}
+
+footer {
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+footer .footer-content p {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+footer .footer-content .socialLinks .links {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+footer .footer-content .socialLinks .links a {
+    color: #000;
+    background-color: #fff;
+    border-radius: 1000px;
+}
+
+footer .main-footer p {
+    max-width: 1200px;
+    margin: auto;
+    color: #FAFAFA;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #627382;
 }
