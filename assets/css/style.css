@@ -23,8 +23,11 @@ nav {
     align-items: center;
 }
 
-nav .nav-links ul {
+li {
     list-style-type: none;
+}
+
+nav .nav-links ul {
     display: flex;
     gap: 32px;
 }
@@ -133,11 +136,12 @@ a {
     margin: auto;
     text-align: center;
     padding: 50px 0;
+    margin-bottom: 50px;
 }
 
 .cards-section .cards-section-header {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     color: #001931;
 }
 
@@ -185,4 +189,41 @@ a {
 .cards .card .card-content {
     color: #627382;
     font-size: 16px;
+}
+
+.solution {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.solution .p1 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #30B868;
+    padding-bottom: 10px;
+}
+
+.solution .p2 {
+    font-size: 48px;
+    color: #001931;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.solution .p3 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 20px;
+}
+
+.solution-r .checkboxes ul li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    line-height: 20px;
+    padding-bottom: 16px;
 }
